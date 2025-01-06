@@ -1,0 +1,50 @@
+.aboutus-section {
+    padding: 50px;
+}
+
+.aboutus {
+    background-color: transparent;
+}
+
+.aboutus-heading {
+    font-size: 2rem;
+    color: #00c3ff;
+    margin: 0px 0px 20px 0px;
+    font-weight: 700;
+}
+
+.aboutus-intro {
+    font-size: 1.1rem;
+    color: #989898;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.aboutus-intro > h3 {
+    font-size: 1.3rem;
+    color: #00c3ff89;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.aboutus ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+.aboutus ul li {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    color: #d1d0d0;
+}
+
+.aboutus a {
+    color: #989898;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.aboutus a:hover {
+    color: #667aff;
+}

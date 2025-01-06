@@ -1,0 +1,30 @@
+
+.error404 {
+    background-color: #00000052;
+    text-align: center;
+    width: 600px;
+    /* height: 500px; */
+    margin: 100px auto;
+    border-radius: 20px;
+    padding: 50px 200px 100px 200px;
+  }
+  
+  .error-heading {
+    font-size: 5rem; 
+    color: #ff0000; 
+  }
+  
+  .error-message {
+    font-size: 1.5rem;
+    color: #01d5ff;
+    margin-bottom: 60px;
+  }
+
+  #backtohome{
+    color: #ffffff7b;
+  }
+
+  #backtohome:hover{
+    color: #fdfdfd;
+  }
+  

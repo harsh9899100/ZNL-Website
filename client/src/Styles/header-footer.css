@@ -1,0 +1,72 @@
+
+/* Navbar styles -------------------------------------------------------- */
+.header-container {
+  display: flex;
+  /* position: sticky; */
+  top: 0%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #ffffff;
+  color: #000000;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2); /* Add shadow */
+}
+
+.header-logo-container a {
+  color: #010101;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li:last-child {
+  margin-right: 0;
+}
+
+nav ul li a {
+  color: #0a0095;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #e50000;
+}
+
+
+
+/* Footer Section Styles ------------------------------------- */
+
+footer{
+	background-color: transparent;
+	padding: 50px 30px;
+}
+
+.footer-section {
+  /* margin-top: 150px; */
+  background-color: #ffffffe2;
+  padding: 20px;
+  border-radius: 10px;
+    color: #000000;
+}
+
+.footer-section p {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+@media (max-width: 768px) {
+	.col {
+		flex-basis: 100%;
+	}
+}

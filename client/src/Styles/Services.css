@@ -1,0 +1,59 @@
+.services-section {
+    padding: 50px;
+}
+
+.services-heading {
+    font-size: 2rem;
+    color: #00c3ff;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.services-intro {
+    font-size: 1.1rem;
+    color: #989898;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.Services-cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Service-card {
+    width: 300px;
+    margin: 20px auto;
+    background-color: #00000076;
+    padding: 20px;
+    border-radius: 8px;
+    border-left: 3px solid #00eeff88;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.Service-card:hover {
+    background-color: #000000a3;
+    border-left: 3px solid #00eeff88;
+    border-radius: 8px;
+}
+
+.Service-category {
+    font-size: 0.9rem;
+    color: #00bbffa0;
+    /* margin-bottom: 10px; */
+    font-weight: 600;
+}
+
+.Service-title {
+    font-size: 1.2rem;
+    color: #007bff;
+    font-weight: 600;
+}
+
+.Service-price {
+    font-size: 0.7rem;
+    color: #ffffff87;
+}
